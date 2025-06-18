@@ -10,9 +10,9 @@ function App() {
   const responsesEndRef = useRef(null);
   const aiEndRef = useRef(null);
 
-  const ROBOT_URL = "http://192.168.50.207:5001/command";
-  const CAMERA_URL = "http://192.168.50.207:5000/video_feed";
-  const AI_URL = "http://192.168.50.187:5005/ai-command";
+  const ROBOT_URL = "http://192.168.xxx.xxx:5001/command";
+  const CAMERA_URL = "http://192.168.xxx.xxx:5000/video_feed";
+  const AI_URL = "http://192.168.xxx.xxx:5005/ai-command";
 
   // Dezactivăm scroll-ul automat
   // useEffect(() => {
